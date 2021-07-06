@@ -1,8 +1,10 @@
 {
-  "name": "password_generator",
+  "name": "passwordgen",
   "version": "1.0.0",
   "description": "Password Generator Tool",
   "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
